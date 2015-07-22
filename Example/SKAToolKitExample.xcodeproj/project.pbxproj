@@ -36,12 +36,6 @@
 		BB3704CA1B50E0DF00D7EE0B /* Tiles.1.png in Resources */ = {isa = PBXBuildFile; fileRef = BB3704C41B50E0DF00D7EE0B /* Tiles.1.png */; };
 		BB3704CB1B50E0DF00D7EE0B /* Walls.1.png in Resources */ = {isa = PBXBuildFile; fileRef = BB3704C51B50E0DF00D7EE0B /* Walls.1.png */; };
 		BB3704CD1B50E0F900D7EE0B /* SampleMap0.tmx in Resources */ = {isa = PBXBuildFile; fileRef = BB3704CC1B50E0F900D7EE0B /* SampleMap0.tmx */; };
-		BB3704D41B50E10600D7EE0B /* Backgrounds.tps in Resources */ = {isa = PBXBuildFile; fileRef = BB3704CE1B50E10600D7EE0B /* Backgrounds.tps */; };
-		BB3704D51B50E10600D7EE0B /* Items.tps in Resources */ = {isa = PBXBuildFile; fileRef = BB3704CF1B50E10600D7EE0B /* Items.tps */; };
-		BB3704D61B50E10600D7EE0B /* Platforms.tps in Resources */ = {isa = PBXBuildFile; fileRef = BB3704D01B50E10600D7EE0B /* Platforms.tps */; };
-		BB3704D71B50E10600D7EE0B /* Structural.tps in Resources */ = {isa = PBXBuildFile; fileRef = BB3704D11B50E10600D7EE0B /* Structural.tps */; };
-		BB3704D81B50E10600D7EE0B /* Tiles.tps in Resources */ = {isa = PBXBuildFile; fileRef = BB3704D21B50E10600D7EE0B /* Tiles.tps */; };
-		BB3704D91B50E10600D7EE0B /* Walls.tps in Resources */ = {isa = PBXBuildFile; fileRef = BB3704D31B50E10600D7EE0B /* Walls.tps */; };
 		F461257B1B30EA2700352D7C /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F461257A1B30EA2700352D7C /* libz.1.2.5.dylib */; };
 /* End PBXBuildFile section */
 
@@ -109,12 +103,6 @@
 		BB3704C41B50E0DF00D7EE0B /* Tiles.1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tiles.1.png; path = Resources/spritesheets/Tiles.1.png; sourceTree = "<group>"; };
 		BB3704C51B50E0DF00D7EE0B /* Walls.1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Walls.1.png; path = Resources/spritesheets/Walls.1.png; sourceTree = "<group>"; };
 		BB3704CC1B50E0F900D7EE0B /* SampleMap0.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = SampleMap0.tmx; path = Resources/tmx/SampleMap0.tmx; sourceTree = "<group>"; };
-		BB3704CE1B50E10600D7EE0B /* Backgrounds.tps */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Backgrounds.tps; path = Resources/tps/Backgrounds.tps; sourceTree = "<group>"; };
-		BB3704CF1B50E10600D7EE0B /* Items.tps */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Items.tps; path = Resources/tps/Items.tps; sourceTree = "<group>"; };
-		BB3704D01B50E10600D7EE0B /* Platforms.tps */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Platforms.tps; path = Resources/tps/Platforms.tps; sourceTree = "<group>"; };
-		BB3704D11B50E10600D7EE0B /* Structural.tps */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Structural.tps; path = Resources/tps/Structural.tps; sourceTree = "<group>"; };
-		BB3704D21B50E10600D7EE0B /* Tiles.tps */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Tiles.tps; path = Resources/tps/Tiles.tps; sourceTree = "<group>"; };
-		BB3704D31B50E10600D7EE0B /* Walls.tps */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Walls.tps; path = Resources/tps/Walls.tps; sourceTree = "<group>"; };
 		BB60EA121B52993A00FD72ED /* SKAToolKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SKAToolKit.h; path = ../../SKAToolKit/SKAToolKit.h; sourceTree = "<group>"; };
 		F461257A1B30EA2700352D7C /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -276,22 +264,8 @@
 				BB3704941B50D3A000D7EE0B /* json */,
 				BB3704951B50D3C200D7EE0B /* spritesheets */,
 				BB3704931B50D39A00D7EE0B /* tmx */,
-				BB3704921B50D38B00D7EE0B /* tps */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		BB3704921B50D38B00D7EE0B /* tps */ = {
-			isa = PBXGroup;
-			children = (
-				BB3704CE1B50E10600D7EE0B /* Backgrounds.tps */,
-				BB3704CF1B50E10600D7EE0B /* Items.tps */,
-				BB3704D01B50E10600D7EE0B /* Platforms.tps */,
-				BB3704D11B50E10600D7EE0B /* Structural.tps */,
-				BB3704D21B50E10600D7EE0B /* Tiles.tps */,
-				BB3704D31B50E10600D7EE0B /* Walls.tps */,
-			);
-			name = tps;
 			sourceTree = "<group>";
 		};
 		BB3704931B50D39A00D7EE0B /* tmx */ = {
@@ -403,18 +377,12 @@
 				BB3704C81B50E0DF00D7EE0B /* Platforms.1.png in Resources */,
 				BB3704CB1B50E0DF00D7EE0B /* Walls.1.png in Resources */,
 				B63D27D21AF6C17800E7F043 /* Images.xcassets in Resources */,
-				BB3704D81B50E10600D7EE0B /* Tiles.tps in Resources */,
-				BB3704D51B50E10600D7EE0B /* Items.tps in Resources */,
 				BB3704CA1B50E0DF00D7EE0B /* Tiles.1.png in Resources */,
-				BB3704D61B50E10600D7EE0B /* Platforms.tps in Resources */,
 				BB3704C71B50E0DF00D7EE0B /* Items.1.png in Resources */,
 				BB3704C61B50E0DF00D7EE0B /* Backgrounds.1.png in Resources */,
-				BB3704D71B50E10600D7EE0B /* Structural.tps in Resources */,
 				BB3704C91B50E0DF00D7EE0B /* Structural.1.png in Resources */,
 				BB3704BF1B50E0CF00D7EE0B /* SampleMap0.json in Resources */,
-				BB3704D41B50E10600D7EE0B /* Backgrounds.tps in Resources */,
 				BB3704CD1B50E0F900D7EE0B /* SampleMap0.tmx in Resources */,
-				BB3704D91B50E10600D7EE0B /* Walls.tps in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
