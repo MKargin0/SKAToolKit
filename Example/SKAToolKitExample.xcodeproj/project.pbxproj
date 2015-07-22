@@ -140,9 +140,9 @@
 			children = (
 				F461257A1B30EA2700352D7C /* libz.1.2.5.dylib */,
 				BB3704961B50D3F700D7EE0B /* Controllers */,
+				BB3704971B50D40400D7EE0B /* Scenes */,
 				B6C7510E1B13907100455CA6 /* SKAToolKit */,
 				BB3704911B50D37F00D7EE0B /* Resources */,
-				BB3704971B50D40400D7EE0B /* Scenes */,
 				B63D27C41AF6C17800E7F043 /* Supporting Files */,
 			);
 			path = SKAToolKitExample;
