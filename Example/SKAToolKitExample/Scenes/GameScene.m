@@ -39,23 +39,25 @@
 {
     //creating a map...yes it is that easy
     self.map = [[SKATiledMap alloc] initWithMapName:@"SampleMap0"];
+//    self.map = [[SKATiledMap alloc] initWithMapName:@"SampleMapKenny"];
+
     [self addChild:self.map];
 
-    //adding funny
+    //showing off how easy it is to add actions to layers or a specific tile
     SKAction *fadeOut = [SKAction fadeAlphaTo:0 duration:.5];
     SKAction *fadeIn = [SKAction fadeAlphaTo:1 duration:.5];
 
     SKAction *repeat = [SKAction
         repeatActionForever:[SKAction sequence:@[ fadeOut, fadeIn ]]];
 
-    SKASpriteLayer *layer = self.map.spriteLayers[2];
+    SKASpriteLayer *layer = self.map.spriteLayers[0];
 
     [layer runAction:repeat];
 
     SKAction *rotate = [SKAction rotateByAngle:2 duration:1];
     SKAction *repeatRotation = [SKAction repeatActionForever:rotate];
 
-    SKASprite *sprite = [self.map spriteOnLayer:1 indexX:3 indexY:3];
+    SKASprite *sprite = [self.map spriteOnLayer:0 indexX:3 indexY:3];
 
     [sprite runAction:repeatRotation];
 
@@ -89,8 +91,8 @@
     
     self.croppedMiniMap =
     [[SKACroppedMiniMap alloc] initWithMap:self.map
-                                 withWidth:150
-                           withCroppedSize:CGSizeMake(50, 50)];
+                                 withWidth:225
+                           withCroppedSize:CGSizeMake(150, 100)];
     self.croppedMiniMap.position = CGPointMake(
                                                self.size.width - self.croppedMiniMap.size.width / 2 - padding,
                                                self.size.height - self.croppedMiniMap.size.height / 2 - padding);
@@ -99,8 +101,8 @@
     [testHud addChild:self.croppedMiniMap];
 
     [self addChild:testHud];
-    
     [self.map addChild:self.player];
+
 
 }
 
