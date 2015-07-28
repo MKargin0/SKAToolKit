@@ -43,8 +43,8 @@
     [self addChild:self.map];
 
     //showing off how easy it is to add actions to layers or a specific tile
-    SKAction *fadeOut = [SKAction fadeAlphaTo:0 duration:.5];
-    SKAction *fadeIn = [SKAction fadeAlphaTo:1 duration:.5];
+    SKAction *fadeOut = [SKAction fadeAlphaTo:0 duration:2];
+    SKAction *fadeIn = [SKAction fadeAlphaTo:1 duration:2];
 
     SKAction *repeat = [SKAction
         repeatActionForever:[SKAction sequence:@[ fadeOut, fadeIn ]]];
@@ -56,7 +56,7 @@
     SKAction *rotate = [SKAction rotateByAngle:2 duration:1];
     SKAction *repeatRotation = [SKAction repeatActionForever:rotate];
 
-    SKASprite *sprite = [self.map spriteOnLayer:0 indexX:3 indexY:3];
+    SKASprite *sprite = [self.map spriteOnLayer:2 indexX:5 indexY:4];
 
     [sprite runAction:repeatRotation];
 
