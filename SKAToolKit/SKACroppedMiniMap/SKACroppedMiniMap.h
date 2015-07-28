@@ -35,6 +35,7 @@
 
 /**
  map must be part of a scene with a view
+ map size max 4096 on newer devices and 2048 max on older devices
  */
 - (id)initWithMap:(SKNode *)map
         withWidth:(NSInteger)width

@@ -38,8 +38,7 @@
 - (void)didMoveToView:(SKView *)view
 {
     //creating a map...yes it is that easy
-    self.map = [[SKATiledMap alloc] initWithMapName:@"SampleMap0"];
-//    self.map = [[SKATiledMap alloc] initWithMapName:@"SampleMapKenny"];
+    self.map = [[SKATiledMap alloc] initWithMapName:@"SampleMapKenny"];
 
     [self addChild:self.map];
 
@@ -88,7 +87,6 @@
     
     [testHud addChild:miniMap];
 */
-    
     self.croppedMiniMap =
     [[SKACroppedMiniMap alloc] initWithMap:self.map
                                  withWidth:225

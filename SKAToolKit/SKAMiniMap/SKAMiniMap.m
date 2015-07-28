@@ -55,6 +55,7 @@
 
     texture = [map.scene.view textureFromNode:miniMap];
 
+    
     [miniMap removeFromParent];
 
     self = [super initWithTexture:texture];

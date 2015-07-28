@@ -32,14 +32,6 @@
 		B643FA891B5FC1CC00621A87 /* SampleMapKenny.tmx in Resources */ = {isa = PBXBuildFile; fileRef = B643FA881B5FC1CC00621A87 /* SampleMapKenny.tmx */; };
 		B6EBB2A01B5EB9FD00A17D18 /* SKACroppedMiniMap.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EBB29F1B5EB9FD00A17D18 /* SKACroppedMiniMap.m */; };
 		B6EBB2AD1B5EBA8300A17D18 /* SKAMiniMap.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EBB2AC1B5EBA8300A17D18 /* SKAMiniMap.m */; };
-		BB3704BF1B50E0CF00D7EE0B /* SampleMap0.json in Resources */ = {isa = PBXBuildFile; fileRef = BB3704BE1B50E0CF00D7EE0B /* SampleMap0.json */; };
-		BB3704C61B50E0DF00D7EE0B /* Backgrounds.1.png in Resources */ = {isa = PBXBuildFile; fileRef = BB3704C01B50E0DF00D7EE0B /* Backgrounds.1.png */; };
-		BB3704C71B50E0DF00D7EE0B /* Items.1.png in Resources */ = {isa = PBXBuildFile; fileRef = BB3704C11B50E0DF00D7EE0B /* Items.1.png */; };
-		BB3704C81B50E0DF00D7EE0B /* Platforms.1.png in Resources */ = {isa = PBXBuildFile; fileRef = BB3704C21B50E0DF00D7EE0B /* Platforms.1.png */; };
-		BB3704C91B50E0DF00D7EE0B /* Structural.1.png in Resources */ = {isa = PBXBuildFile; fileRef = BB3704C31B50E0DF00D7EE0B /* Structural.1.png */; };
-		BB3704CA1B50E0DF00D7EE0B /* Tiles.1.png in Resources */ = {isa = PBXBuildFile; fileRef = BB3704C41B50E0DF00D7EE0B /* Tiles.1.png */; };
-		BB3704CB1B50E0DF00D7EE0B /* Walls.1.png in Resources */ = {isa = PBXBuildFile; fileRef = BB3704C51B50E0DF00D7EE0B /* Walls.1.png */; };
-		BB3704CD1B50E0F900D7EE0B /* SampleMap0.tmx in Resources */ = {isa = PBXBuildFile; fileRef = BB3704CC1B50E0F900D7EE0B /* SampleMap0.tmx */; };
 		F461257B1B30EA2700352D7C /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F461257A1B30EA2700352D7C /* libz.1.2.5.dylib */; };
 /* End PBXBuildFile section */
 
@@ -103,14 +95,6 @@
 		B6EBB29F1B5EB9FD00A17D18 /* SKACroppedMiniMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKACroppedMiniMap.m; path = ../../SKAToolKit/SKACroppedMiniMap/SKACroppedMiniMap.m; sourceTree = "<group>"; };
 		B6EBB2AB1B5EBA8300A17D18 /* SKAMiniMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKAMiniMap.h; path = ../../SKAToolKit/SKAMiniMap/SKAMiniMap.h; sourceTree = "<group>"; };
 		B6EBB2AC1B5EBA8300A17D18 /* SKAMiniMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKAMiniMap.m; path = ../../SKAToolKit/SKAMiniMap/SKAMiniMap.m; sourceTree = "<group>"; };
-		BB3704BE1B50E0CF00D7EE0B /* SampleMap0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = SampleMap0.json; path = Resources/json/SampleMap0.json; sourceTree = "<group>"; };
-		BB3704C01B50E0DF00D7EE0B /* Backgrounds.1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Backgrounds.1.png; path = Resources/spritesheets/Backgrounds.1.png; sourceTree = "<group>"; };
-		BB3704C11B50E0DF00D7EE0B /* Items.1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Items.1.png; path = Resources/spritesheets/Items.1.png; sourceTree = "<group>"; };
-		BB3704C21B50E0DF00D7EE0B /* Platforms.1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Platforms.1.png; path = Resources/spritesheets/Platforms.1.png; sourceTree = "<group>"; };
-		BB3704C31B50E0DF00D7EE0B /* Structural.1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Structural.1.png; path = Resources/spritesheets/Structural.1.png; sourceTree = "<group>"; };
-		BB3704C41B50E0DF00D7EE0B /* Tiles.1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tiles.1.png; path = Resources/spritesheets/Tiles.1.png; sourceTree = "<group>"; };
-		BB3704C51B50E0DF00D7EE0B /* Walls.1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Walls.1.png; path = Resources/spritesheets/Walls.1.png; sourceTree = "<group>"; };
-		BB3704CC1B50E0F900D7EE0B /* SampleMap0.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = SampleMap0.tmx; path = Resources/tmx/SampleMap0.tmx; sourceTree = "<group>"; };
 		BB60EA121B52993A00FD72ED /* SKAToolKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SKAToolKit.h; path = ../../SKAToolKit/SKAToolKit.h; sourceTree = "<group>"; };
 		F461257A1B30EA2700352D7C /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -272,8 +256,6 @@
 				B643FA831B5FC1B800621A87 /* misc.atlas */,
 				B643FA841B5FC1B800621A87 /* items.atlas */,
 				B63D27D11AF6C17800E7F043 /* Images.xcassets */,
-				BB3704941B50D3A000D7EE0B /* json */,
-				BB3704951B50D3C200D7EE0B /* spritesheets */,
 				BB3704931B50D39A00D7EE0B /* tmx */,
 			);
 			name = Resources;
@@ -283,30 +265,8 @@
 			isa = PBXGroup;
 			children = (
 				B643FA881B5FC1CC00621A87 /* SampleMapKenny.tmx */,
-				BB3704CC1B50E0F900D7EE0B /* SampleMap0.tmx */,
 			);
 			name = tmx;
-			sourceTree = "<group>";
-		};
-		BB3704941B50D3A000D7EE0B /* json */ = {
-			isa = PBXGroup;
-			children = (
-				BB3704BE1B50E0CF00D7EE0B /* SampleMap0.json */,
-			);
-			name = json;
-			sourceTree = "<group>";
-		};
-		BB3704951B50D3C200D7EE0B /* spritesheets */ = {
-			isa = PBXGroup;
-			children = (
-				BB3704C01B50E0DF00D7EE0B /* Backgrounds.1.png */,
-				BB3704C11B50E0DF00D7EE0B /* Items.1.png */,
-				BB3704C21B50E0DF00D7EE0B /* Platforms.1.png */,
-				BB3704C31B50E0DF00D7EE0B /* Structural.1.png */,
-				BB3704C41B50E0DF00D7EE0B /* Tiles.1.png */,
-				BB3704C51B50E0DF00D7EE0B /* Walls.1.png */,
-			);
-			name = spritesheets;
 			sourceTree = "<group>";
 		};
 		BB3704961B50D3F700D7EE0B /* Controllers */ = {
@@ -387,18 +347,10 @@
 			files = (
 				B643FA891B5FC1CC00621A87 /* SampleMapKenny.tmx in Resources */,
 				B63D27D51AF6C17800E7F043 /* LaunchScreen.xib in Resources */,
-				BB3704C81B50E0DF00D7EE0B /* Platforms.1.png in Resources */,
-				BB3704CB1B50E0DF00D7EE0B /* Walls.1.png in Resources */,
 				B643FA851B5FC1B800621A87 /* platforms.atlas in Resources */,
 				B63D27D21AF6C17800E7F043 /* Images.xcassets in Resources */,
 				B643FA871B5FC1B800621A87 /* items.atlas in Resources */,
 				B643FA861B5FC1B800621A87 /* misc.atlas in Resources */,
-				BB3704CA1B50E0DF00D7EE0B /* Tiles.1.png in Resources */,
-				BB3704C71B50E0DF00D7EE0B /* Items.1.png in Resources */,
-				BB3704C61B50E0DF00D7EE0B /* Backgrounds.1.png in Resources */,
-				BB3704C91B50E0DF00D7EE0B /* Structural.1.png in Resources */,
-				BB3704BF1B50E0CF00D7EE0B /* SampleMap0.json in Resources */,
-				BB3704CD1B50E0F900D7EE0B /* SampleMap0.tmx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
