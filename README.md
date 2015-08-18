@@ -142,19 +142,6 @@ SKACroppedMiniMap is similar to SKAMiniMap, but instead of seeing the entire map
 SKACroppedMiniMap has an auto follow feature. Set the autoFollowNode to a node that is a child of the map used to create the SKACroppedMiniMap.
 
 ![SKACroppedMiniMap Example](Documentation/skacroppedminimap.png)
-
-##SKALabelNode
-SKALabelNode builds on SpriteKit's `SKLabelNode` by adding simple multi-line functionality, thus giving the ability the use new-line characters "\n".<br>
-**Important:** You must call the label's `drawLabel` method whenever you want to display or update the label.
-
-Example
-
-```
-SKALabelNode *multiLineLabelNode = [SKALabelNode labelNodeWithText:@"Hello\nI was drawn by SpriteKit!"];
-multiLineLabelNode.position = CGPointMake(CGRectGetMidX(self.frame), CGRectGetMidY(self.frame));
-[multiLineLabelNode drawLabel];
-[self addChild:multiLineLabelNode];
-```
     
 ###Contact Info
 If you would like to get in contact with the SKA email Skyler at skyler@skymistdevelopment.com
