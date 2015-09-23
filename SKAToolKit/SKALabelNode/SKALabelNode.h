@@ -33,13 +33,15 @@
 - (void)drawLabel;
 
 @property (nonatomic, strong) NSString *text;
+@property (nonatomic, strong) NSAttributedString *attributedText;
 @property (nonatomic, strong) SKColor *fontColor;
 @property (nonatomic, strong) NSString *fontName;
 @property (nonatomic, setter=setHorizontalAlignment:) SKLabelHorizontalAlignmentMode horizontalAlignmentMode;
 @property (nonatomic, setter=setVerticalAlignnment:) SKLabelVerticalAlignmentMode verticalAlignmentMode;
-@property (nonatomic) int lineSpacing;
+@property (nonatomic) NSInteger lineSpacing;
 @property (nonatomic, strong) NSShadow *shadow;
 @property (nonatomic) NSTextAlignment textAlignmentMode;
 @property (nonatomic) CGFloat fontSize;
+@property (nonatomic) NSInteger labelWidth;
 
 @end
